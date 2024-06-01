@@ -29,19 +29,7 @@ import com.hoan.appbanhang.model.GioHang;
 import com.hoan.appbanhang.retrofit.ApiBanHang;
 import com.hoan.appbanhang.retrofit.RetrofitClient;
 import com.hoan.appbanhang.untils.Untils;
-import com.paypal.checkout.approve.Approval;
-import com.paypal.checkout.approve.OnApprove;
-import com.paypal.checkout.createorder.CreateOrderActions;
-import com.paypal.checkout.createorder.CurrencyCode;
-import com.paypal.checkout.createorder.OrderIntent;
-import com.paypal.checkout.createorder.UserAction;
-import com.paypal.checkout.order.Amount;
-import com.paypal.checkout.order.AppContext;
-import com.paypal.checkout.order.CaptureOrderResult;
-import com.paypal.checkout.order.OnCaptureComplete;
-import com.paypal.checkout.order.OrderRequest;
-import com.paypal.checkout.order.PurchaseUnit;
-import com.paypal.checkout.paymentbutton.PaymentButtonContainer;
+
 
 import org.json.JSONArray;
 import org.json.JSONException;
